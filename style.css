@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.blogsection {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogsection > input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.blogsection > button {
+    border: none;
+    background-color: black;
+    color: aqua;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.blogsection>span {
+    color: blue;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.showblogs {
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+
+
+.commentBox {
+    border: 1px solid Black;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+
+.commentBox input {
+    width: 150px;
+    height: 21px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.replyBox {
+    border: 1px solid Blue;
+    padding: 5px 10px;
+    margin-top: 15px;
+    background-color: rgb(238, 245, 246);
+}
+
+.replyBox button {
+    border: none;
+    background-color: black;
+    color: aqua;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.blogBox > input{
+    width: 150px;
+    height: 21px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.blogBox > button {
+    border: none;
+    background-color: black;
+    color: aqua;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.commentBox button {
+    border: none;
+    background-color: black;
+    color: aqua;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
